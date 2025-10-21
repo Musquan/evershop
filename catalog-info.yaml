@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: evershop
+  description: Evershop is a comprehensive e-commerce platform designed to streamline online retail operations for businesses.
+  annotations:
+    github.com/project-slug: Musquan/evershop
+    jira/project-key: SCRUM
+    jira/label: backstage-component:evershop
+spec:
+  type: application
+  owner: ICS
+  lifecycle: production
